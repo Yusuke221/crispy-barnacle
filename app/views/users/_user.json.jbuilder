@@ -1,0 +1,2 @@
+json.extract! user, :id, :name, :nationality, :point, :one, :two, :three, :four, :five, :six, :seven, :eight, :nine, :ten, :eleven, :twelve, :thirteen, :fourteen, :fifteen, :sixteen, :created_at, :updated_at
+json.url user_url(user, format: :json)
